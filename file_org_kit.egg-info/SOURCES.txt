@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+file_org/__init__.py
+file_org/organizer.py
+file_org_kit.egg-info/PKG-INFO
+file_org_kit.egg-info/SOURCES.txt
+file_org_kit.egg-info/dependency_links.txt
+file_org_kit.egg-info/entry_points.txt
+file_org_kit.egg-info/top_level.txt

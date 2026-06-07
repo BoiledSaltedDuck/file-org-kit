@@ -1,0 +1,2 @@
+[console_scripts]
+file-org = file_org.organizer:main

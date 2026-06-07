@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-org-kit"
+version = "1.0.0"
+description = "文件智能分类整理工具 - 按类型或日期自动归档文件，告别杂乱下载目录"
+readme = "README.md"
+authors = [
+    {name = "BoiledSaltedDuck", email = "tools@office-tools.pro"}
+]
+license = {text = "MIT"}
+keywords = ["file", "organize", "organizer", "分类", "整理", "归档"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+file-org = "file_org.organizer:main"
+
+[tool.setuptools.packages.find]
+include = ["file_org*"]
